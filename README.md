@@ -2,6 +2,7 @@
 
 This project is an interpreter for lambda expressions, concatenations, and sums.
 Given an input string, it constructs a Non-Deterministic Finite Automaton (NFA) and then converts it into a Deterministic Finite Automaton (DFA) in the lexer.
+After that it builds an abstract syntax tree (AST), parses it and computes the result.
 
 # Code Structure
 The code consists of two main parts:
