@@ -13,9 +13,6 @@ Main Function: The main function serves as the entry point of the program. It us
 
 To use the Lambda Expression Interpreter, provide an input lambda expression as a command-line argument when running the program. The program will tokenize the input, parse it into an AST, and evaluate the expression, printing the result.
 
-Example command to run the program:
-python interpreter.py "((lambda x: lambda x: x 1) 2)"
-
 # Supported Lambda Expression Features
 
 The interpreter supports the following features in lambda expressions:
@@ -26,6 +23,4 @@ Concatenation using ++.
 Summation using +.
 Numeric values [0-9]+.
 
-Example
-For the input expression ((lambda x: lambda x: x 1) 2), the interpreter will evaluate it to 3 as a result.
 
